@@ -18,7 +18,7 @@ export class TokenPriceController {
     private coefficientUpdated = <{[key: string]: number}>{}
     private latestUSDPrices: IPriceDB[] = []
     private isUpdating: {[key: string]: boolean} = {}
-    private githubImageURL: string = "https://raw.githubusercontent.com/TrustWallet/tokens/master/images/";
+    private githubImageURL: string = "https://raw.githubusercontent.com/ellaism/tokens/master/images/";
 
     constructor() {
         this.initialize()

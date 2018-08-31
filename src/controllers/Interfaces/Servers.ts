@@ -4,6 +4,7 @@ export enum Nodes {
     poa = "https://trust-poa.herokuapp.com/",
     callisto = "https://trust-callisto.herokuapp.com/",
     gochain = "https://trust-gochain.herokuapp.com/",
+    ellaism = "http://trust-api.outdoordevs.com/",
     localhost = "http://localhost:8000/"
 }
 
@@ -22,6 +23,7 @@ export enum Endpoints {
 export enum CoinTypeIndex {
     ethereum = 60,
     classic = 61,
+    ellaism = 163,
     poa = 178,
     callisto = 820,
     gochain = 6060,
